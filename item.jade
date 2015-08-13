@@ -2,3 +2,159 @@ doctype html
 html
 	head
 		meta(charset="UTF-8")
+		meta(content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport")
+		link(rel="stylesheet" href="css/reset.css")
+		link(rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900')
+		link(rel="stylesheet" href="css/cv.css")
+		script(src="js/prefixfree.min.js")
+	body
+		//Header
+		header.menuHidden
+			.top-bar
+				button.menu
+					em.hamburger
+			script(type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js")
+			#SkypeButton_Call_zerospree_1.skype
+				script(type="text/javascript")!= "Skype.ui({'name': 'chat','element': 'SkypeButton_Call_zerospree_1','participants': ['zerospree'],'imageColor' : 'white','imageSize': 24});"
+			a.mail(href="#contact") jhon_jairo@live.com
+		//Navigation Bar
+		nav
+			.grid
+				a(href="#about") About
+				a(href="#skills") Skills
+				a(href="#experience") Experience
+				a(href="#works") Works
+				a(href="#weakness") Weakness
+				a(href="#contact") Contact
+		main.grid(role="main")
+			section.box.white-box.hero#about
+				img.thumb(src="http://codrin.eu/assets/img/pic.jpg")
+				h1 Codrin Pavel
+				h2 Front end Developer & UX Fan
+				p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum saepe quia nemo minima laborum odit, repudiandae sed reprehenderit! Reiciendis cupiditate officiis iure sequi voluptas at vel minus cumque, ullam laboriosam numquam consectetur, beatae maiores voluptatibus nemo saepe? Neque, beatae, non!
+				a.btn.blue(href="http://codrin.eu/assets/docs/codrin_pavel_cv.pdf" target="_blank") View C.V.
+				a.btn.green(href="works") See Portfolio
+			h3#Skills Skills
+			section.box.blue-box.skills-box
+				.col
+					h4 Professional
+						ul
+							li Html5
+							li Javascript
+							li Git
+							li Adobe
+							li Brackets
+							li Basecamp, Jira
+				.col
+					h4 Personal
+					ul
+						li Detail
+						li Communicative
+						li Deep
+						li Results
+						li I'll
+						li Honest
+			// Experience
+			section
+				ul.timeline
+					li.box
+						strong Frond end lead
+						span April, 2013
+						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit obcaecati eos sed, ipsum ducimus minus. Ut nulla mollitia nostrum, aspernatur earum omnis quos harum consequatur impedit vel deleniti excepturi, ratione laudantium illo enim voluptate doloribus ea eum eius explicabo repellat, nesciunt placeat iste? Velit, veritatis.
+							a.link(href="http://mygov.us" target="_blank" class="link") Mygov.us
+					li.box
+						strong Frond end lead
+						span April, 2013
+						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit obcaecati eos sed, ipsum ducimus minus. Ut nulla mollitia nostrum, aspernatur earum omnis quos harum consequatur impedit vel deleniti excepturi, ratione laudantium illo enim voluptate doloribus ea eum eius explicabo repellat, nesciunt placeat iste? Velit, veritatis.
+							a.link(href="http://mygov.us" target="_blank" class="link") Mygov.us
+					li.box
+						strong Frond end lead
+						span April, 2013
+						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit obcaecati eos sed, ipsum ducimus minus. Ut nulla mollitia nostrum, aspernatur earum omnis quos harum consequatur impedit vel deleniti excepturi, ratione laudantium illo enim voluptate doloribus ea eum eius explicabo repellat, nesciunt placeat iste? Velit, veritatis.
+							a.link(href="http://mygov.us" target="_blank" class="link") Mygov.us
+					li.box
+						strong Frond end lead
+						span April, 2013
+						p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit obcaecati eos sed, ipsum ducimus minus. Ut nulla mollitia nostrum, aspernatur earum omnis quos harum consequatur impedit vel deleniti excepturi, ratione laudantium illo enim voluptate doloribus ea eum eius explicabo repellat, nesciunt placeat iste? Velit, veritatis.
+							a.link(href="http://mygov.us" target="_blank" class="link") Mygov.us
+			// Works
+			h3#works Portfolio
+			section
+				ul.cards
+					li.card.dark
+						a.box(href="http://www.visualfreaks.com" target="_blank")
+							img(src="http://codrin.eu/assets/img/vf.jpg")
+							.summary
+								h4 Visual Freaks
+								span.category psd to html5 css3, jquery, php
+							p VisualFreaks was in need of a good front-end developer to implement their newest website and email templates based on provided PSD files and also hook up their product with FetchApp.com, a powerful pay to download service
+					li.card.card-kiteops
+						a.box(href="http://kiteops.com" target="_blank")
+							img(src="http://codrin.eu/assets/img/kiteops.jpg", alt="")
+							.summary kiteops-summary
+								h4 KiteOps
+								span.category psd to html5 & css3, jquery, youtube API
+					li.card
+						a.box(href="http://benevol.ro" target="_blank")
+							img(src="http://codrin.eu/assets/img/benevol.jpg")
+							.summary.benevol-summary
+								h4 Benevol
+								span.category psd to html5 &amp; css3, google maps API, jquery
+							p Started by the Vodafone Foundation and meant to help organizations through vountary work, I was involved with the front-end work for their Admin area and all forms available throughout the entire platform.
+					li.card
+						a.box(href="")
+							img(src="" alt="")
+							.summary
+								h4
+								span.category
+			//Weakness
+			h3#weakness Weakness
+			section.box.blue-box.skills-box
+				.col
+					h4 Professional
+					ul
+						li No/CMS
+						li No MVC
+				.col
+					h4 Personal
+					ul
+						li Sometimes
+						li Can Get Lost
+				.footnote
+					* Sadly, most of my previous works were custom-all-the-way and that's what I'm best at.
+					br
+					** I'd be totally happy and excited to learn all these fancy new things in the industry!
+			//Contact
+			h3#contact Get in touch
+			form.box.white-box.contact(novalidate)
+				.field
+					input#fname(name="first_name", type="text" required)
+					label(for="fname") First Name
+				.field
+					input#lname(name="last_name", type="text" required)
+					label(for="lname") First Name
+				.field
+					input#email(name="email", type="text" required)
+					label(for="email") Email Address
+				.field.field_optional
+					input#company(name="company_name", type="url")
+					label(for="company") Email Address
+				.field
+					text-area#message(name="message" required)
+					label(for="message") Email Address
+				.message.message_success Thank you for contacting me, I will try to respond ASAP.
+				.message.message_error 
+					*Ooops! Looks like an error occured. So embarassing! 
+					br
+					*You should either try again, or send a direct email to hello@zerospree.com
+					br
+					*Thank you!
+				.center
+					input.btn.green#submitform(type="submit" value="Send Email / Job Offer")
+		footer.grid.box.white-box
+			a.link.codepen(href="http://codepen.io/opplyst/" target="_blank") Codepen
+			a.link.twitter(href="https://twitter.com/opplystRajat" target="_blank") twitter
+			a.link.facebook(href="https://facebook.com/opplyst.rajat") Facebook
+		script(src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js")
+		script(src="http://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js")
+		script(src="js/index.js")
