@@ -6,7 +6,7 @@
 	    overflow-x: hidden;
 	    background: #E3E3E3;
 	    color: #8B8B8D;
-	    font: 500 16px/22px 'Roboto', 'Arial', sans-serif;
+	    font: 500 16px/22px 'Raleway', 'Arial', sans-serif;
 	}
 	
 	body {
@@ -225,7 +225,7 @@
 	    line-height: 66px;
 	    color: rgba(255, 255, 255, .7);
 	    letter-spacing: 1px;
-	    background: #0396E3;
+	    background: #000;
 	    z-index: 1;
 	    position: relative;
 	}
@@ -246,7 +246,7 @@
 	
 	nav {
 	    z-index: 1;
-	    background: #00A8FF;
+	    background: #333333;
 	    position: fixed;
 	    top: 66px;
 	    left: 0;
@@ -314,8 +314,8 @@
 	    background: #fff
 	}
 	
-	.blue-box {
-	    background: #00A8FF;
+	.grey-box {
+	    background: #333;
 	    color: #fff
 	}
 	
@@ -391,7 +391,7 @@
 	    height: 14px;
 	    border-radius: 50%;
 	    display: block;
-	    background: #00A8FF;
+	    background: #000;
 	    position: absolute;
 	    left: 50%;
 	    margin: -47px 0 0 -7px
@@ -422,7 +422,7 @@
 	}
 	
 	.skills-box .col {
-	    width: 50%;
+	    width: 49%;
 	    padding: 0 0 0 6%;
 	    display: inline-block;
 	    vertical-align: top;

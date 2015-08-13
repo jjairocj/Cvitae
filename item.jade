@@ -2,9 +2,10 @@ doctype html
 html
 	head
 		meta(charset="UTF-8")
+		title CV Jairo Cruz
 		meta(content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport")
 		link(rel="stylesheet" href="css/reset.css")
-		link(rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900')
+		link(rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900')
 		link(rel="stylesheet" href="css/cv.css")
 		script(src="js/prefixfree.min.js")
 	body
@@ -13,10 +14,10 @@ html
 			.top-bar
 				button.menu
 					em.hamburger
-			script(type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js")
-			#SkypeButton_Call_zerospree_1.skype
-				script(type="text/javascript")!= "Skype.ui({'name': 'chat','element': 'SkypeButton_Call_zerospree_1','participants': ['zerospree'],'imageColor' : 'white','imageSize': 24});"
-			a.mail(href="#contact") jhon_jairo@live.com
+				script(type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js")
+				#SkypeButton_Call_opplyst_1.skype
+					script(type="text/javascript")!= "Skype.ui({'name': 'chat','element': 'SkypeButton_Call_opplyst_1','participants': ['jhonjalurne'],'imageColor' : 'white','imageSize': 24});"
+				a.mail(href="#contact") jhon_jairo@live.com
 		//Navigation Bar
 		nav
 			.grid
@@ -24,27 +25,28 @@ html
 				a(href="#skills") Skills
 				a(href="#experience") Experience
 				a(href="#works") Works
-				a(href="#weakness") Weakness
+				a(href="#weaknesses") Weaknesses
 				a(href="#contact") Contact
 		main.grid(role="main")
+			//Hero
 			section.box.white-box.hero#about
-				img.thumb(src="http://codrin.eu/assets/img/pic.jpg")
-				h1 Codrin Pavel
-				h2 Front end Developer & UX Fan
+				img.thumb(src="img/opplyst.jpg")
+				h1 Jhon Jairo Cruz
+				h2 Software Developer & Game Developer
 				p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum saepe quia nemo minima laborum odit, repudiandae sed reprehenderit! Reiciendis cupiditate officiis iure sequi voluptas at vel minus cumque, ullam laboriosam numquam consectetur, beatae maiores voluptatibus nemo saepe? Neque, beatae, non!
 				a.btn.blue(href="http://codrin.eu/assets/docs/codrin_pavel_cv.pdf" target="_blank") View C.V.
 				a.btn.green(href="works") See Portfolio
-			h3#Skills Skills
-			section.box.blue-box.skills-box
+			h3#skills Skills
+			section.box.grey-box.skills-box
 				.col
 					h4 Professional
-						ul
-							li Html5
-							li Javascript
-							li Git
-							li Adobe
-							li Brackets
-							li Basecamp, Jira
+					ul
+						li .Net Developer (VB.Net C# Asp.Net)
+						li Javascript
+						li Git
+						li Adobe
+						li Brackets
+						li Basecamp, Jira
 				.col
 					h4 Personal
 					ul
@@ -55,6 +57,7 @@ html
 						li I'll
 						li Honest
 			// Experience
+			h3#experience Experience
 			section
 				ul.timeline
 					li.box
@@ -107,9 +110,9 @@ html
 							.summary
 								h4
 								span.category
-			//Weakness
-			h3#weakness Weakness
-			section.box.blue-box.skills-box
+			//Weaknesses
+			h3#weaknesses Weaknesses
+			section.box.grey-box.skills-box
 				.col
 					h4 Professional
 					ul
@@ -120,7 +123,7 @@ html
 					ul
 						li Sometimes
 						li Can Get Lost
-				.footnote
+				p.footnote
 					* Sadly, most of my previous works were custom-all-the-way and that's what I'm best at.
 					br
 					** I'd be totally happy and excited to learn all these fancy new things in the industry!
@@ -138,10 +141,10 @@ html
 					label(for="email") Email Address
 				.field.field_optional
 					input#company(name="company_name", type="url")
-					label(for="company") Email Address
-				.field
-					text-area#message(name="message" required)
-					label(for="message") Email Address
+					label(for="company") Company Name
+				.field.field-textarea
+					textarea#message(name="message" required)
+					label(for="message") Message
 				.message.message_success Thank you for contacting me, I will try to respond ASAP.
 				.message.message_error 
 					*Ooops! Looks like an error occured. So embarassing! 

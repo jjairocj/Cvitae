@@ -2,9 +2,10 @@
 <html>
   <head>
     <meta charset="UTF-8">
+    <title>CV Jairo Cruz</title>
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet prefetch" href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900">
+    <link rel="stylesheet prefetch" href="http://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900">
     <link rel="stylesheet" href="css/cv.css">
     <script src="js/prefixfree.min.js"></script>
   </head>
@@ -13,35 +14,35 @@
     <header class="menuHidden">
       <div class="top-bar">
         <button class="menu"><em class="hamburger"></em></button>
+        <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+        <div id="SkypeButton_Call_opplyst_1" class="skype">
+          <script type="text/javascript">Skype.ui({'name': 'chat','element': 'SkypeButton_Call_opplyst_1','participants': ['jhonjalurne'],'imageColor' : 'white','imageSize': 24});</script>
+        </div><a href="#contact" class="mail">jhon_jairo@live.com</a>
       </div>
-      <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
-      <div id="SkypeButton_Call_zerospree_1" class="skype">
-        <script type="text/javascript">Skype.ui({'name': 'chat','element': 'SkypeButton_Call_zerospree_1','participants': ['zerospree'],'imageColor' : 'white','imageSize': 24});</script>
-      </div><a href="#contact" class="mail">jhon_jairo@live.com</a>
     </header>
     <!--Navigation Bar-->
     <nav>
-      <div class="grid"><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#works">Works</a><a href="#weakness">Weakness</a><a href="#contact">Contact</a></div>
+      <div class="grid"><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#works">Works</a><a href="#weaknesses">Weaknesses</a><a href="#contact">Contact</a></div>
     </nav>
     <main role="main" class="grid">
-      <section id="about" class="box white-box hero"><img src="http://codrin.eu/assets/img/pic.jpg" class="thumb">
-        <h1>Codrin Pavel</h1>
-        <h2>Front end Developer & UX Fan</h2>
+      <!--Hero-->
+      <section id="about" class="box white-box hero"><img src="img/opplyst.jpg" class="thumb">
+        <h1>Jhon Jairo Cruz</h1>
+        <h2>Software Developer & Game Developer</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum saepe quia nemo minima laborum odit, repudiandae sed reprehenderit! Reiciendis cupiditate officiis iure sequi voluptas at vel minus cumque, ullam laboriosam numquam consectetur, beatae maiores voluptatibus nemo saepe? Neque, beatae, non!</p><a href="http://codrin.eu/assets/docs/codrin_pavel_cv.pdf" target="_blank" class="btn blue">View C.V.</a><a href="works" class="btn green">See Portfolio</a>
       </section>
-      <h3 id="Skills">Skills</h3>
-      <section class="box blue-box skills-box">
+      <h3 id="skills">Skills</h3>
+      <section class="box grey-box skills-box">
         <div class="col">
-          <h4>Professional
-            <ul>
-              <li>Html5</li>
-              <li>Javascript</li>
-              <li>Git</li>
-              <li>Adobe</li>
-              <li>Brackets</li>
-              <li>Basecamp, Jira</li>
-            </ul>
-          </h4>
+          <h4>Professional</h4>
+          <ul>
+            <li>.Net Developer (VB.Net C# Asp.Net)</li>
+            <li>Javascript</li>
+            <li>Git</li>
+            <li>Adobe</li>
+            <li>Brackets</li>
+            <li>Basecamp, Jira</li>
+          </ul>
         </div>
         <div class="col">
           <h4>Personal</h4>
@@ -56,6 +57,7 @@
         </div>
       </section>
       <!-- Experience-->
+      <h3 id="experience">Experience</h3>
       <section>
         <ul class="timeline">
           <li class="box"><strong>Frond end lead</strong><span>April, 2013</span>
@@ -96,9 +98,9 @@
               </div></a></li>
         </ul>
       </section>
-      <!--Weakness-->
-      <h3 id="weakness">Weakness</h3>
-      <section class="box blue-box skills-box">
+      <!--Weaknesses-->
+      <h3 id="weaknesses">Weaknesses</h3>
+      <section class="box grey-box skills-box">
         <div class="col">
           <h4>Professional</h4>
           <ul>
@@ -113,7 +115,7 @@
             <li>Can Get Lost</li>
           </ul>
         </div>
-        <div class="footnote">* Sadly, most of my previous works were custom-all-the-way and that's what I'm best at.<br>** I'd be totally happy and excited to learn all these fancy new things in the industry!</div>
+        <p class="footnote">* Sadly, most of my previous works were custom-all-the-way and that's what I'm best at.<br>** I'd be totally happy and excited to learn all these fancy new things in the industry!</p>
       </section>
       <!--Contact-->
       <h3 id="contact">Get in touch</h3>
@@ -132,11 +134,11 @@
         </div>
         <div class="field field_optional">
           <input id="company" name="company_name" type="url">
-          <label for="company">Email Address</label>
+          <label for="company">Company Name</label>
         </div>
-        <div class="field">
-          <text-area id="message" name="message" required></text-area>
-          <label for="message">Email Address</label>
+        <div class="field field-textarea">
+          <textarea id="message" name="message" required></textarea>
+          <label for="message">Message</label>
         </div>
         <div class="message message_success">Thank you for contacting me, I will try to respond ASAP.</div>
         <div class="message message_error">
