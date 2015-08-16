@@ -8,6 +8,7 @@ html
 		link(rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900')
 		link(rel="stylesheet" href="css/cv.css")
 		script(src="js/prefixfree.min.js")
+		script (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-66382140-1', 'auto');  ga('send', 'pageview');
 	body
 		//Header
 		header.menuHidden
@@ -34,8 +35,8 @@ html
 				h1 Jhon Jairo Cruz
 				h2 Software Developer & Game Developer
 				p Hello and welcome, I am a software developer with experience in Microsoft tools, with expertise in financial business, air cargo, education and logistics. With capacity to adopt new technologies easily and apply them, I call myself 'Cacharrero' (Always wishing to learn something new, anxious to know how the world works), I am passionate about finding new ways of doing things, to make life easier for the people.
-				a.btn.blue(href="http://codrin.eu/assets/docs/codrin_pavel_cv.pdf" target="_blank") View C.V.
-				a.btn.green(href="experience") See Experience
+				a.btn.blue(href="#" target="_blank") View C.V.
+				a.btn.green(href="#experience") See Experience
 			h3#skills Skills
 			section.box.grey-box.skills-box
 				.col
@@ -115,9 +116,8 @@ html
 						li Sometimes I'm temperamental
 						li I get distracted easily
 				p.footnote.
-					Sadly, in all my works they are internal developments, so I can not show you all the things I've done.
-					br
-					 But I'm working on a portfolio in github to see what I can do
+					Sadly, in all my works they are internal developments, so I can not show you all the things I've done. 
+					But I'm working on a portfolio in github to see what I can do
 			//Contact
 			h3#contact Get in touch
 			form.box.white-box.contact(novalidate)
@@ -136,13 +136,11 @@ html
 				.field.field-textarea
 					textarea#message(name="message" required)
 					label(for="message") Message
-				.message.message_success Thank you for contacting me, I will try to respond ASAP.
-				.message.message_error.
+				.message.message_success.
 					It seems that an error has occurred, I am ashamed
-					br
-					Please try again, or send a direct email to jhon_jairo@live.com
-					br
-					Thank you!
+					,Please try again, or send a direct email to jhon_jairo@live.com
+					,Thank you!
+				.message.message_error Thank you for contacting me, I will try to respond ASAP.
 				.center
 					input.btn.green#submitform(type="submit" value="Send Email")
 		footer.grid.box.white-box
